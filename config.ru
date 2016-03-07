@@ -1,3 +1,3 @@
-require_relative 'monkey_x'
+require_relative 'monkey_t'
 
-run MonkeyX
+run MonkeyT

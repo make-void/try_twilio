@@ -3,7 +3,7 @@ require "roda"
 TWML = # Twilio Markup Language (in plain text)
   "
   <Response>
-    <Say>Meeao!</Say>
+    <Say>Meeao! Meaoo Murkaa!</Say>
   </Response>
   "
 
@@ -25,7 +25,17 @@ TWML = # Twilio Markup Language (in plain text)
 #   },
 # }
 
+#  require 'twilio-ruby'
+#
+# Twilio::TwiML::Response.new do |r|
+#   r.Say 'Hello Monkey'
+# end.text
+
+
+# ---
+
 # MonkeyX or MonkeyXML - monkey that speaks xml (sorry about the naming :D)
+
 
 class MonkeyX < Roda
   route do |r|
