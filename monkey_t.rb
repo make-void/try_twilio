@@ -73,9 +73,8 @@ class MonkeyT < Roda
 
       r.on "call" do
         Resp.new do |r|
-          r.Pause 1
-          r.Say "my keekuolka is the best murkealoulka of the world, I love my kikulka because is very very much abbracheayoulka, my cheeyoulka is my unique and only murka mur mur murk  "
-          r.Pause 2
+          # make funny sounds
+          # r.play soundfile todo
           r.Say "kiki"
           r.Pause 1
           r.Say "kiki"
