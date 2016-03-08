@@ -1,3 +1,3 @@
-require_relative 'monkey_t'
+require_relative 'server'
 
-run MonkeyT
+run XMLServer

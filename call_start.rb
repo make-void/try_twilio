@@ -11,7 +11,7 @@ RECIPIENT = TO
 @client = Twilio::REST::Client.new ACCOUNT_SID, AUTH_TOKEN
 
 @client.account.calls.create(
-  from: "+44#{FROM}",
-  to: "+44#{RECIPIENT}",
-  url: 'http://52a1a037.ngrok.com/call'
+  from: "+#{FROM}",
+  to: "+#{RECIPIENT}",
+  url: 'http://twi.eu.ngrok.io/call'
 )
